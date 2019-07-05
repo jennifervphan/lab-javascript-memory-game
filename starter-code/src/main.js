@@ -30,7 +30,7 @@ var openedCards = [];
 var itemClick = [];
 var items = [];
 var moves = 0;
-var score = 0;
+var score = 11;
 memoryGame.shuffleCards();
 
 function cardOpen(card) {

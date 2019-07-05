@@ -59,14 +59,14 @@ html {
     left: 50%;
     margin-top: -9em;
     /*set to a negative number 1/2 of your height*/
-    margin-left: -15em;
+    margin-left: -11em;
     background-color: white;
     padding: 30px;
     border-radius: 10px;
 }
 
 .hide {
-    display: none;
+    opacity: 0;
 }
 
 #again {

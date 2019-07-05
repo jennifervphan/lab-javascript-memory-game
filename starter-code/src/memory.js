@@ -42,11 +42,17 @@ class MemoryGame {
     isFinished() {
         let x = document.getElementById("pairs_guessed").innerHTML;
         if (x === "12") {
-            alert("YOU WIN!")
-            let playAgain = prompt("Wanna play again?(yes/no)");
-            if (playAgain === "yes") {
+            $(".hide").toggleClass("hide show");
+            // alert("YOU WIN!")
+            // let playAgain = prompt("Wanna play again?(yes/no)");
+            // if (playAgain === "yes") {
+            //     location.reload();
+            // }
+            $("#again").click(function() {
                 location.reload();
-            }
+                $(".show").toggleClass("show hide");
+
+            })
         }
     }
 
